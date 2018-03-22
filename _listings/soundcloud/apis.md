@@ -22,18 +22,7 @@ created: "2018-03-22"
 modified: "2018-03-22"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: SoundCloud
-  description: SoundCloud is a global online audio distribution platform based in
-    Berlin, Germany, that enables its users to upload, record, promote, and share
-    their originally-created sounds
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
-  humanURL: ""
-  baseURL: https://api.soundcloud.com//
-  tags: Tracks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/tracks-track-id-json-get.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
