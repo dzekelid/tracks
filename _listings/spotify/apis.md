@@ -34,7 +34,7 @@ apis:
   tags: Tracks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/spotify/albums-id-tracks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/spotify/artists-id-top-tracks-get.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
