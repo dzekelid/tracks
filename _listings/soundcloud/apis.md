@@ -33,7 +33,7 @@ apis:
   tags: Tracks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/tracks-track-id-secret-token-json-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/users-user-id-tracks-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
