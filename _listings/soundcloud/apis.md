@@ -33,7 +33,7 @@ apis:
   tags: Tracks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/me-followings-contact-id-json-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/me-followers-contact-id-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
