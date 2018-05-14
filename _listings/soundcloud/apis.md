@@ -34,16 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/groups-group-id-tracks-json-get.md
-- name: SoundCloud Get My Follower
-  description: Checks if the user with the id contact_id is a follower of the logged-in
-    user
+- name: SoundCloud Update My Favorite Track
+  description: Adds the given track to the logged-in user's list of favorites.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Tracks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/me-followers-contact-id-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/me-favorites-track-id-json-put.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
