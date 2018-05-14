@@ -35,17 +35,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/spotify/users-user-id-playlists-playlist-id-tracks-put.md
-- name: Spotify Get My Tracks
-  description: '[Get Current User''s Saved Tracks](https://developer.spotify.com/web-api/get-users-saved-tracks/)'
+- name: Spotify Update My Tracks
+  description: '[Save Tracks for Current User](https://developer.spotify.com/web-api/save-tracks-user/)'
   image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1
   tags: Tracks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/spotify/me-tracks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/spotify/me-tracks-put.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/spotify/me-tracks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/spotify/me-tracks-put-postman.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
