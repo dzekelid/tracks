@@ -34,16 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/groups-group-id-tracks-json-get.md
-- name: SoundCloud Get Track Secret Token
-  description: Returns the secret token for a track by track id. This resource can
-    only be used by the track owner.
+- name: SoundCloud Update Track Secret Token
+  description: |-
+    Resets the secret token for a track by track id. The secret token can not be specified but will be randomly chosen on
+              the server and returned. This resource can only be used by the track owner.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Tracks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/tracks-track-id-secret-token-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/tracks-track-id-secret-token-json-put.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
