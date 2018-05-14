@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: SoundCloud
-  description: Access, host, upload, and comment on audio.
+  title: SoundCloud Update Track Secret Token
+  description: |-
+    Resets the secret token for a track by track id. The secret token can not be specified but will be randomly chosen on
+              the server and returned. This resource can only be used by the track owner.
   version: 1.0.0
 host: api.soundcloud.com
 basePath: /
