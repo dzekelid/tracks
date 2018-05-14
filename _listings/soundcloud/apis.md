@@ -34,15 +34,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/groups-group-id-tracks-json-get.md
-- name: SoundCloud Get Track
-  description: Returns a track by track id
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
-  humanURL: http://soundcloud.com
-  baseURL: https://api.soundcloud.com//
-  tags: Tracks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/tracks-track-id-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
