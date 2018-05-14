@@ -34,15 +34,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/groups-group-id-tracks-json-get.md
-- name: SoundCloud Get My Favorite Track
-  description: Deletes the given track from the logged-in user's list of favorites.
+- name: SoundCloud Get Group Tracks
+  description: Returns a collection of tracks contributed to the group with group
+    id
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Tracks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/me-favorites-track-id-json-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/soundcloud/groups-group-id-tracks-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
