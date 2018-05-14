@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SoundCloud
-  description: Access, host, upload, and comment on audio.
+  title: SoundCloud Get Track Secret Token
+  description: Returns the secret token for a track by track id. This resource can
+    only be used by the track owner.
   version: 1.0.0
 host: api.soundcloud.com
 basePath: /
