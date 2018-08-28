@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washi
 x-kinRank: "8"
 x-alexaRank: "24927"
 tags: Tracks
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/washington-metropolitan-area-transit-authority/apis.md
 specificationVersion: "0.14"
 apis:
-- name: WMATA Train Positions Track Circuits
-  x-api-slug: wmata-train-positions
+- name: Train Positions - Track Circuits
+  x-api-slug: trackcircuits-get
   description: "Description\r\n\r\nReturns a list of all track circuits including
     those on pocket tracks and crossovers.  Each track circuit may include references
     to its right and left neighbors.\r\nPlease refer to this page for additional details.\r\n\r\nResponse
@@ -56,25 +56,18 @@ apis:
     \"Left\",\r\n\"CircuitIds\": [5, 7]\r\n}]\r\n}]\r\n}"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
   humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//TrainPositions//TrackCircuits
-  tags: Transit,Subway,Tracks,Circuits
+  baseURL: https://api.wmata.com//TrainPositions
+  tags: Transit, Transit, Transportation, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/washington-metropolitan-area-transit-authority/trackcircuits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/washington-metropolitan-area-transit-authority/trackcircuits-get-openapi.md
-- name: WMATA Train Positions
-  x-api-slug: wmata-train-positions
-  description: Official feed of Metro/WMATA, not monitored 24/7. Report emergencies
-    to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg
-  humanURL: http://wmata.com/
-  baseURL: https://api.wmata.com//TrainPositions
-  tags: Tracks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tracks/master/_listings/washington-metropolitan-area-transit-authority/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://vzaar.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://washington.metropolitan.area.transit.authority.stack.network
 - type: x-base
   url: http://api.wmata.com/
 - type: x-crunchbase
